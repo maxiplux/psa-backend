@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "education_levels",
+  "info": {
+    "name": "Education Levels"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

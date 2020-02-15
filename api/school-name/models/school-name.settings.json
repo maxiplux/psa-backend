@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "school_names",
+  "info": {
+    "name": "School Names"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "city": {
+      "model": "city"
+    }
+  }
+}

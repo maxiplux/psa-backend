@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "children",
+  "info": {
+    "name": "Children"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "parent": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "gender": {
+      "model": "genders"
+    },
+    "school_grade": {
+      "model": "school-grade"
+    },
+    "school_name": {
+      "model": "school-name"
+    },
+    "BirthDate": {
+      "required": true,
+      "type": "date"
+    }
+  }
+}

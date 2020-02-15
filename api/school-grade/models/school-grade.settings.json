@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "school_grades",
+  "info": {
+    "name": "School Grades"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

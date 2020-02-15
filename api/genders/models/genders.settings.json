@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "genders",
+  "info": {
+    "name": "genders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "name",
+      "unique": true,
+      "required": true
+    }
+  }
+}

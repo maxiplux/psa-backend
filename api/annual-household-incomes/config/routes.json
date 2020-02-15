@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/annual-household-incomes",
+      "handler": "annual-household-incomes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/annual-household-incomes/count",
+      "handler": "annual-household-incomes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/annual-household-incomes/:id",
+      "handler": "annual-household-incomes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/annual-household-incomes",
+      "handler": "annual-household-incomes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/annual-household-incomes/:id",
+      "handler": "annual-household-incomes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/annual-household-incomes/:id",
+      "handler": "annual-household-incomes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
