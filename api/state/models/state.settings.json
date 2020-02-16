@@ -1,6 +1,8 @@
 {
+  "connection": "default",
+  "collectionName": "states",
   "info": {
-    "name": "State"
+    "name": "States"
   },
   "options": {
     "increments": true,
@@ -11,8 +13,9 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "abbreviation": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "states"
+  }
 }

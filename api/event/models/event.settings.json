@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "Events"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "status": {
+      "type": "boolean"
+    },
+    "start_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "end_date": {
+      "type": "datetime"
+    },
+    "name": {
+      "type": "string"
+    },
+    "school_name": {
+      "model": "school-name"
+    },
+    "city": {
+      "model": "city"
+    }
+  }
+}

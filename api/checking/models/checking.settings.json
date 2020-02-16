@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "checkings",
+  "info": {
+    "name": "checkings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "checkingDate": {
+      "required": true,
+      "type": "datetime"
+    },
+    "event": {
+      "model": "event"
+    },
+    "parent": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
